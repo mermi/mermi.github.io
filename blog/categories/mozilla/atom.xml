@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Mozilla | Manel Rhaiem]]></title>
+  <link href="mermi.me/blog/categories/mozilla/atom.xml" rel="self"/>
+  <link href="mermi.me/"/>
+  <updated>2015-08-23T15:47:26+02:00</updated>
+  <id>mermi.me/</id>
+  <author>
+    <name><![CDATA[Mermi]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Taking the *Spark* Version on the FX OS Flame Device for a Test Drive]]></title>
+    <link href="mermi.me/blog/2015/06/15/lets-see-how-to-run-the-fantastic-spark-on-the-flame/"/>
+    <updated>2015-06-15T02:25:10+02:00</updated>
+    <id>mermi.me/blog/2015/06/15/lets-see-how-to-run-the-fantastic-spark-on-the-flame</id>
+    <content type="html"><![CDATA[<p>Today, I enjoyed my day with this amazing version of Firefox OS Spark. First let me tell you about it - it’s a customization and features built on top of the next generation of the Firefox OS platform and is a subset of the Ignite initiative. Spark is intended to empower users to truly customize their experience, hack whatever they want to, and make their devices truly their own. For more information, I invite you to read this <a href="https://wiki.mozilla.org/Firefox_OS/Spark">link</a> .</p>
+
+<p>Next, I will talk about my experience:</p>
+
+<blockquote><p>How to flash it on the Flame</p>
+
+<p>The adventure of discovering</p></blockquote>
+
+<h2>Let&rsquo;s Start with the Flash</h2>
+
+<p>If you have the last version (3.0) of Firefox OS it’s okay, If you are running the 2.0 or 2.2 Version you should switch to the latest version because they aren’t using the same Base image. So to flash your flame you will need to Download <a href="cds.w5v8t3u9.hwcdn.net/v18D_nightly_v2.zip">the nightly Base Image</a> before updating your phone. After the download, you just need to extract the file, put your phone in the <a href="https://developer.mozilla.org/en-US/Firefox_OS/Phone_guide/Flame/Updating_your_Flame#Fastboot_mode">fastboot mode</a> and finally open your Terminal and run the flash.sh script <code>./flash.sh</code> .</p>
+
+<p>Now, to update your phone to the 3.0 Version, all you need is to download the gaia and b2g image from <a href="https://ftp.mozilla.org/pub/mozilla.org/b2g/nightly/latest-mozilla-central-flame-kk-eng/">here</a> and the <a href="https://raw.githubusercontent.com/Mozilla-TWQA/B2G-flash-tool/master/shallow_flash.sh">shallow script</a></p>
+
+<p>and after that run this command in your terminal:</p>
+
+<p><code>sudo ./shallow_flash.sh -g/home/mermi/../gaia.zip -G/home/mermi/../b2g-41.0a1.en-US.android-arm.tar.gz</code> .</p>
+
+<p>The last thing to do to get the <strong>spark Version</strong> is to run this command in your Terminal under the gaia repository:</p>
+
+<p><code>sudo GAIA_DISTRIBUTION_DIR=distros/spark make reset-gaia</code></p>
+
+<h5>And you will get the famous spark like me :D</h5>
+
+<p><img src="http://i.imgur.com/29dXTGw.png?1" alt="SparkVersionFxOS" /></p>
+
+<h2>Let&rsquo;s Discover the New Things</h2>
+
+<p>First you need to enable the Developer Mode</p>
+
+<p><img src="http://i.imgur.com/qMJjm2C.png?1" alt="enableDevMode" /></p>
+
+<p>When you open any one of this App ( Customizer, Hackerplace, Studio,..) you should follow the instructions appeared</p>
+
+<p><img src="http://i.imgur.com/2xc0C49.png?1" alt="inst1" /></p>
+
+<hr />
+
+<p><img src="http://i.imgur.com/iW2l5lv.png?1" alt="inst2" /></p>
+
+<p><strong><em> And after the Last Enable </em></strong></p>
+
+<p><img src="http://i.imgur.com/UjE902h.png?1" alt="instn" /></p>
+
+<blockquote><p>your phone will restart to switch to the developer Mode</p></blockquote>
+
+<h3>Customizer Application:</h3>
+
+<p><img src="http://i.imgur.com/Vbgu8CZ.png?1" alt="customizer" /></p>
+
+<p>** You will find all the available Application in your phone</p>
+
+<h3>Hackerplace Application</h3>
+
+<p><img src="http://i.imgur.com/nWRA3Pl.png?1" alt="Hackerplace" /></p>
+
+<p><strong>* Here we find Apps and Add-Ons, with just one Addon </strong><a href="https://github.com/mikehenrty/fxos-cracked">Cracked</a>**</p>
+
+<p>and a Lot of other Applications like <strong>Twitter</strong>, <strong>Facebook</strong>, <strong>WhatsApp</strong>, <strong>Notes</strong>, <strong>Bugzilla Lite</strong>, <strong>Webmaker</strong>, <strong>BuddyUp</strong></p>
+
+<p>I really appreciate this version and I think it can be better and will be appreciated by all the people using Firefox OS. Happy hacking!</p>
+]]></content>
+  </entry>
+  
+</feed>

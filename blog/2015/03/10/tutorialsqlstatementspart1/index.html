@@ -1,0 +1,470 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>TutorialSQLStatementsPART1 - Manel Rhaiem</title>
+  <meta name="author" content="Mermi">
+
+  
+  <meta name="description" content="This tutorial helps you to learn how to write Sql Statements let me start with : How to Create your DataBase just you need to make it in one line: &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="mermi.me/blog/2015/03/10/tutorialsqlstatementspart1/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Manel Rhaiem" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="/javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body    class="collapse-sidebar sidebar-footer" >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Manel Rhaiem</a></h1>
+  
+    <h2>Happiness is here is everywhere</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="https://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="sitesearch" value="mermi.me">
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">TutorialSQLStatementsPART1</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2015-03-10T16:36:56+01:00'><span class='date'><span class='date-month'>Mar</span> <span class='date-day'>10</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>4:36 pm</span></time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>This tutorial helps you to learn how to write Sql Statements let me start with :</p>
+
+<h4>How to Create your DataBase just you need to make it in one line:</h4>
+
+<pre><code>CREATE DATABASE database_name
+</code></pre>
+
+<h4>Now when you need to create new Table on your Data Base you have to execute:</h4>
+
+<pre><code>CREATE TABLE table_name(
+  column_name1 data_type,
+  column_name2 data_type,
+  column_name3 data_type,
+  ...
+ )
+</code></pre>
+
+<ul>
+<li>The data type can be: Text, Byte, Integer, Double,Date,Char,Varchar(long),DateTime&hellip;..</li>
+<li>They are 5 Types of Constraint
+
+<blockquote><ul>
+<li>NOT NULL</li>
+<li>UNIQUE</li>
+<li>CHECK</li>
+<li>PRIMARY KEY</li>
+</ul>
+</blockquote>
+
+<p>  <col1> Type Data Primary Key</p></li>
+</ul>
+
+
+<blockquote><ul>
+<li>FOREIGN KEY</li>
+</ul>
+</blockquote>
+
+<pre><code>CONSTRAINT  &lt;fk table column&gt; FOREIGN KEY (col1, col2, ... coln)  REFERENCES&lt;extended table&gt; (col1, col2, ...  coln)
+</code></pre>
+
+<p>OR</p>
+
+<pre><code>&lt;col1&gt;CONSTRAINT &lt;fk table column&gt; REFERENCES &lt;extended Table&gt;(col)  
+</code></pre>
+
+<h4>To make some modification on Table exist on your Data Base</h4>
+
+<pre><code>ALTER TABLE table_name ADD column_name datatype
+</code></pre>
+
+<p>OR</p>
+
+<pre><code>ALTER TABLE table_name DROP COLUMN column_name
+</code></pre>
+
+<ul>
+<li>Add: to add a column</li>
+<li>Modify: apply some modification on column exist</li>
+<li>Drop: Drop column</li>
+<li>Add Constraint: to add a constraint to a Column</li>
+<li>Drop Constraint: to delete constraint</li>
+</ul>
+
+
+<h4>Create and Modify View: a view is a virtual table based on the result-set of an SQL statement.</h4>
+
+<pre><code>CREATE [OR REPLACE ] [FORCEjNOFORCE] VIEW &lt;nom vue&gt; [(alias [, alias], . . . )] AS SELECT [WITH CHECK OPTION    [CONSTRAINT&lt;nom contrainte&gt;]] [WITH READ ONLY [CONSTRAINT &lt;nom contrainte&gt;]] ;
+</code></pre>
+
+<h4>Create Sequence :</h4>
+
+<pre><code>CREATE SEQUENCE &lt;nom séquence&gt;
+[INCREMENT BY &lt;pas&gt;]
+[START WITH &lt;valeur&gt;]
+[MAXVALUE &lt;valeur max&gt; |NOMAXVALUEg]
+[MINVALUE &lt;valeur min&gt; | NOMINVALUEg]
+[CYCLE j NOCYCLEg]
+[CACHE &lt;cache&gt; |NOCACHE]  
+</code></pre>
+
+<blockquote><ul>
+<li>INCREMENT BY: define the step of incrementation</li>
+<li>START WITH : the first number of incrementation</li>
+<li>MAXVALUE |NOMAXVALUE : The MAX value</li>
+<li>MINVALUE || NOMINVALUE: The Min Value</li>
+<li>CYCLE | NOCYCLE</li>
+<li>CACHE | NOCACHE: values for performance</li>
+</ul>
+</blockquote>
+
+<h4>Create INDEX:  used to speed up searches/queries</h4>
+
+<pre><code>CREATE [UNIQUE] INDEX &lt;nom index&gt; ON &lt;nom table&gt;(col1, col2,...)
+</code></pre>
+
+<h4>Create and Delete Synonym:</h4>
+
+<pre><code>CREATE [OR REPLACE] [PUBLIC] SYNONYM&lt;nom synonyme&gt; FOR [schema.]&lt;nom objet&gt;
+</code></pre>
+
+<h4>Select Statement :</h4>
+
+<p><em>it is used to Select Data from data Base they different kind of Select for Example:</em></p>
+
+<pre><code>Select * From Table
+</code></pre>
+
+<ul>
+<li>With condition:</li>
+</ul>
+
+
+<blockquote><p>   Select * From Table_name Where Column like &lsquo;Ahmed&rsquo;</p></blockquote>
+
+<ul>
+<li>Sometimes we can found duplicated values in a Table so we use DISTINCT :</li>
+</ul>
+
+
+<blockquote><p>   Select DISTINCT name from EMPLOYEE</p></blockquote>
+
+<ul>
+<li>Aliases: give to a column a temporary name:</li>
+</ul>
+
+
+<blockquote><p>   SELECT column_name AS alias_name FROM table_name;</p></blockquote>
+
+<ul>
+<li>NULL values: IS NULL or IS NOT NULL</li>
+</ul>
+
+
+<blockquote><p>   SELECT LastName,FirstName,Address FROM EMPLYEE WHERE Address IS NULL</p></blockquote>
+
+<h4>Functions:</h4>
+
+<h5>Char Function</h5>
+
+<ul>
+<li><p>LOWER(String)</p>
+
+<blockquote><p>Convert upper String to lower</p></blockquote></li>
+<li><p>UPPER(String)</p>
+
+<blockquote><p>Convert lower String to upper</p></blockquote></li>
+<li><p>INITCAP(String)</p>
+
+<blockquote><p>Convert the first caracter to Upper and the other lower</p></blockquote></li>
+<li><p>CONCAT(String1,String2)</p>
+
+<blockquote><p>Concat the first string with the second string</p></blockquote></li>
+<li><p>SUBSTR(String,pos[length])</p>
+
+<blockquote><p>Extract a sub String from the String in parameter, from the position given in parameter</p></blockquote></li>
+<li><p>LPAD(String, length, char)</p>
+
+<blockquote><p>the char can be * or any other char, LPAD serve to complete the String  with the char in the left</p></blockquote></li>
+<li><p>RPAD(String, length,char)</p>
+
+<blockquote><p>the char can be * or any other char, RPAD serve to complete the String  with the char in the right</p></blockquote></li>
+<li><p>LTRIM(String,char)</p>
+
+<blockquote><p>Delete the caracteres in the left</p></blockquote></li>
+<li><p>RTRIM(String,char)</p>
+
+<blockquote><p>Delete the caracteres in the right</p></blockquote></li>
+<li><p>ASCII(String)</p>
+
+<blockquote><p>return the ASCII code of the first caracter</p></blockquote></li>
+</ul>
+
+
+<h5>Numeric function</h5>
+
+<ul>
+<li><p>ROUND(45.926,2)</p>
+
+<blockquote><p>return 45.92</p></blockquote></li>
+<li><p>FLOOR(45.926)</p>
+
+<blockquote><p>return 45</p></blockquote></li>
+<li><p>CEIL(45.926)</p>
+
+<blockquote><p>return 46</p></blockquote></li>
+<li><p>GREATEST(4,-1,7)</p>
+
+<blockquote><p>return 7</p></blockquote></li>
+</ul>
+
+
+<p>LEAST(4,-1,7)</p>
+
+<blockquote><p>return -1</p></blockquote>
+
+<h5>Date function</h5>
+
+<ul>
+<li><p>SYSDATE or CURRENT_DATE</p>
+
+<blockquote><p>return the date of your system</p></blockquote></li>
+<li><p>MONTHS_BETWEEN(d1,d2)</p>
+
+<blockquote><p>return the number of months between d1 and d2</p></blockquote></li>
+<li><p>ADD_MONTHS(d,j)</p>
+
+<blockquote><p>add j months to the date d</p></blockquote></li>
+<li><p>NEXT_DAY(d,j)</p>
+
+<blockquote><p>return the next date of the day j for example: NEXT_DAY(&lsquo;01-SEP-95&rsquo;,&lsquo;FRIDAY&rsquo;) => 08-SEP-95</p></blockquote></li>
+<li><p>ROUND(d,p)</p>
+
+<blockquote><p>ROUND(to_date(&lsquo;25-07-03&rsquo;,&lsquo;MONTH&rsquo;)) return 01-08-03</p></blockquote></li>
+<li><p>TRUNC(d,p)</p>
+
+<blockquote><p>TRUNC(to_date(&lsquo;25-07-03&rsquo;,&lsquo;MONTH&rsquo;),&lsquo;MONTH&rsquo;) return 01-07-03</p></blockquote></li>
+<li><p>EXTRACT(p FROM d)</p>
+
+<blockquote><p>EXTRACT(day from to_date(&lsquo;25-07-03&rsquo;)) return 25</p></blockquote></li>
+<li><p>TO_CHAR(date,format)</p>
+
+<blockquote><p>convert date to the format in the parameter (for more details visit this link)</p></blockquote></li>
+<li><p>TO_DATE(String,format)</p></li>
+</ul>
+
+
+<h4>Join</h4>
+
+<p> <em>is to combine rows from two or more tables</em></p>
+
+<p><em>They are many others statements you can find them <a href="http://ss64.com/ora/">here</a></em></p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Mermi</span></span>
+
+      
+
+
+
+
+<time class='entry-date' datetime='2015-03-10T16:36:56+01:00'><span class='date'><span class='date-month'>Mar</span> <span class='date-day'>10</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>4:36 pm</span></time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="mermi.me/blog/2015/03/10/tutorialsqlstatementspart1/" data-via="https://twitter.com/manelbutterfly" data-counturl="mermi.me/blog/2015/03/10/tutorialsqlstatementspart1/" >Tweet</a>
+  
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2015/01/13/mozilla-work-week-in-portland/" title="Previous Post: Mozilla Work Week in Portland">&laquo; Mozilla Work Week in Portland</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2015/06/15/lets-see-how-to-run-the-fantastic-spark-on-the-flame/" title="Next Post: Taking the *Spark* version on the FX OS Flame device for a test drive">Taking the *Spark* version on the FX OS Flame device for a test drive &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/07/09/a-great-work-week-in-a-spectacular-setting/">A Great Work Week in a Spectacular Setting</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/06/15/lets-see-how-to-run-the-fantastic-spark-on-the-flame/">Taking the *Spark* Version on the FX OS Flame Device for a Test Drive</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/03/10/tutorialsqlstatementspart1/">TutorialSQLStatementsPART1</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/01/13/mozilla-work-week-in-portland/">Mozilla Work Week in Portland</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/11/14/2014-11-14-first-participation-on-mozilla-festival/">2014-11-14-first-participation-on-mozilla-festival</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/mermi">@mermi</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'mermi',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2015 - Mermi -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id; js.async = true;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
