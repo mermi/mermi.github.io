@@ -1,0 +1,305 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Taking the *Spark* Version on the FX OS Flame Device for a Test Drive - Manel Rhaiem</title>
+  <meta name="author" content="Mermi">
+
+  
+  <meta name="description" content="Today, I enjoyed my day with this amazing version of Firefox OS Spark. First let me tell you about it - it’s a customization and features built on &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://mermi.github.io/blog/2015/06/15/lets-see-how-to-run-the-fantastic-spark-on-the-flame/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Manel Rhaiem" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="/javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body    class="collapse-sidebar sidebar-footer" >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Manel Rhaiem</a></h1>
+  
+    <h2>Happiness is here is everywhere</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="https://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="sitesearch" value="mermi.github.io">
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Taking the *Spark* Version on the FX OS Flame Device for a Test Drive</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2015-06-15T02:25:10+02:00'><span class='date'><span class='date-month'>Jun</span> <span class='date-day'>15</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>2:25 am</span></time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>Today, I enjoyed my day with this amazing version of Firefox OS Spark. First let me tell you about it - it’s a customization and features built on top of the next generation of the Firefox OS platform and is a subset of the Ignite initiative. Spark is intended to empower users to truly customize their experience, hack whatever they want to, and make their devices truly their own. For more information, I invite you to read this <a href="https://wiki.mozilla.org/Firefox_OS/Spark">link</a> .</p>
+
+<p>Next, I will talk about my experience:</p>
+
+<blockquote><p>How to flash it on the Flame</p>
+
+<p>The adventure of discovering</p></blockquote>
+
+<h2>Let&rsquo;s Start with the Flash</h2>
+
+<p>If you have the last version (3.0) of Firefox OS it’s okay, If you are running the 2.0 or 2.2 Version you should switch to the latest version because they aren’t using the same Base image. So to flash your flame you will need to Download <a href="cds.w5v8t3u9.hwcdn.net/v18D_nightly_v2.zip">the nightly Base Image</a> before updating your phone. After the download, you just need to extract the file, put your phone in the <a href="https://developer.mozilla.org/en-US/Firefox_OS/Phone_guide/Flame/Updating_your_Flame#Fastboot_mode">fastboot mode</a> and finally open your Terminal and run the flash.sh script <code>./flash.sh</code> .</p>
+
+<p>Now, to update your phone to the 3.0 Version, all you need is to download the gaia and b2g image from <a href="https://ftp.mozilla.org/pub/mozilla.org/b2g/nightly/latest-mozilla-central-flame-kk-eng/">here</a> and the <a href="https://raw.githubusercontent.com/Mozilla-TWQA/B2G-flash-tool/master/shallow_flash.sh">shallow script</a></p>
+
+<p>and after that run this command in your terminal:</p>
+
+<p><code>sudo ./shallow_flash.sh -g/home/mermi/../gaia.zip -G/home/mermi/../b2g-41.0a1.en-US.android-arm.tar.gz</code> .</p>
+
+<p>The last thing to do to get the <strong>spark Version</strong> is to run this command in your Terminal under the gaia repository:</p>
+
+<p><code>sudo GAIA_DISTRIBUTION_DIR=distros/spark make reset-gaia</code></p>
+
+<h5>And you will get the famous spark like me :D</h5>
+
+<p><img src="http://i.imgur.com/29dXTGw.png?1" alt="SparkVersionFxOS" /></p>
+
+<h2>Let&rsquo;s Discover the New Things</h2>
+
+<p>First you need to enable the Developer Mode</p>
+
+<p><img src="http://i.imgur.com/qMJjm2C.png?1" alt="enableDevMode" /></p>
+
+<p>When you open any one of this App ( Customizer, Hackerplace, Studio,..) you should follow the instructions appeared</p>
+
+<p><img src="http://i.imgur.com/2xc0C49.png?1" alt="inst1" /></p>
+
+<hr />
+
+<p><img src="http://i.imgur.com/iW2l5lv.png?1" alt="inst2" /></p>
+
+<p><strong><em> And after the Last Enable </em></strong></p>
+
+<p><img src="http://i.imgur.com/UjE902h.png?1" alt="instn" /></p>
+
+<blockquote><p>your phone will restart to switch to the developer Mode</p></blockquote>
+
+<h3>Customizer Application:</h3>
+
+<p><img src="http://i.imgur.com/Vbgu8CZ.png?1" alt="customizer" /></p>
+
+<p>** You will find all the available Application in your phone</p>
+
+<h3>Hackerplace Application</h3>
+
+<p><img src="http://i.imgur.com/nWRA3Pl.png?1" alt="Hackerplace" /></p>
+
+<p><strong>* Here we find Apps and Add-Ons, with just one Addon </strong><a href="https://github.com/mikehenrty/fxos-cracked">Cracked</a>**</p>
+
+<p>and a Lot of other Applications like <strong>Twitter</strong>, <strong>Facebook</strong>, <strong>WhatsApp</strong>, <strong>Notes</strong>, <strong>Bugzilla Lite</strong>, <strong>Webmaker</strong>, <strong>BuddyUp</strong></p>
+
+<p>I really appreciate this version and I think it can be better and will be appreciated by all the people using Firefox OS. Happy hacking!</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Mermi</span></span>
+
+      
+
+
+
+
+<time class='entry-date' datetime='2015-06-15T02:25:10+02:00'><span class='date'><span class='date-month'>Jun</span> <span class='date-day'>15</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>2:25 am</span></time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/firefox-os/'>firefox os</a>, <a class='category' href='/blog/categories/mozilla/'>mozilla</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://mermi.github.io/blog/2015/06/15/lets-see-how-to-run-the-fantastic-spark-on-the-flame/" data-via="https://twitter.com/manelbutterfly" data-counturl="http://mermi.github.io/blog/2015/06/15/lets-see-how-to-run-the-fantastic-spark-on-the-flame/" >Tweet</a>
+  
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2015/03/10/tutorialsqlstatementspart1/" title="Previous Post: TutorialSQLStatementsPART1">&laquo; TutorialSQLStatementsPART1</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2015/07/09/a-great-work-week-in-a-spectacular-setting/" title="Next Post: A Great Work Week in a Spectacular Setting">A Great Work Week in a Spectacular Setting &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/07/09/a-great-work-week-in-a-spectacular-setting/">A Great Work Week in a Spectacular Setting</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/06/15/lets-see-how-to-run-the-fantastic-spark-on-the-flame/">Taking the *Spark* Version on the FX OS Flame Device for a Test Drive</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/03/10/tutorialsqlstatementspart1/">TutorialSQLStatementsPART1</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/01/13/mozilla-work-week-in-portland/">Mozilla Work Week in Portland</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/11/14/2014-11-14-first-participation-on-mozilla-festival/">2014-11-14-first-participation-on-mozilla-festival</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/mermi">@mermi</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'mermi',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2015 - Mermi -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id; js.async = true;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

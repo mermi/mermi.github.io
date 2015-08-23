@@ -1,93 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
 
-<!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <title>Manel Rhaiem</title>
-  <meta name="author" content="Mermi">
-
-  
-  <meta name="description" content="I was so happy to attend this Work Week, first because I was invited by the QA Team and I was so excited to meet them in person and learn more from &hellip;">
-  
-
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  
-  <link rel="canonical" href="http://mermi.github.io/">
-  <link href="/favicon.png" rel="icon">
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <link href="/atom.xml" rel="alternate" title="Manel Rhaiem" type="application/atom+xml">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script>!window.jQuery && document.write(unescape('%3Cscript src="/javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-
-  
-
-</head>
-
-<body    class="collapse-sidebar sidebar-footer" >
-  <header role="banner"><hgroup>
-  <h1><a href="/">Manel Rhaiem</a></h1>
-  
-    <h2>Happiness is here is everywhere</h2>
-  
-</hgroup>
-
-</header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
-</ul>
-  
-<form action="https://www.google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="sitesearch" value="mermi.github.io">
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
-  
-<ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
-</ul>
-
-</nav>
-  <div id="main">
-    <div id="content">
-      <div class="blog-index">
-  
-  
-  
-    <article>
-      
-  <header>
+  <title><![CDATA[Manel Rhaiem]]></title>
+  <link href="http://mermi.github.io/atom.xml" rel="self"/>
+  <link href="http://mermi.github.io/"/>
+  <updated>2015-08-23T16:04:38+02:00</updated>
+  <id>http://mermi.github.io/</id>
+  <author>
+    <name><![CDATA[Mermi]]></name>
     
-      <h1 class="entry-title"><a href="/blog/2015/07/09/a-great-work-week-in-a-spectacular-setting/">A Great Work Week in a Spectacular Setting</a></h1>
-    
-    
-      <p class="meta">
-        
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
 
-
-
-
-<time class='entry-date' datetime='2015-07-09T03:27:51+02:00'><span class='date'><span class='date-month'>Jul</span> <span class='date-day'>9</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>3:27 am</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I was so happy to attend this Work Week, first because I was invited by the QA Team and I was so excited to meet them in person and learn more from them during the course of the Work Week.</p>
+  
+  <entry>
+    <title type="html"><![CDATA[A Great Work Week in a Spectacular Setting]]></title>
+    <link href="http://mermi.github.io/blog/2015/07/09/a-great-work-week-in-a-spectacular-setting/"/>
+    <updated>2015-07-09T03:27:51+02:00</updated>
+    <id>http://mermi.github.io/blog/2015/07/09/a-great-work-week-in-a-spectacular-setting</id>
+    <content type="html"><![CDATA[<p>I was so happy to attend this Work Week, first because I was invited by the QA Team and I was so excited to meet them in person and learn more from them during the course of the Work Week.</p>
 
 <p>The work week started on 22th June evening until the evening of the 27th. It was a <em>busy</em> week, and during the course of the week I met a lot of nice people and discovered a lot of things about other projects in Mozilla. I also had some time to discover the charming Village where the event was held.</p>
 
@@ -112,35 +43,15 @@
 <p>In the end, I am so happy that I met the QA team in person and had the chance to talk and discuss with them, and It was a Great second work week for me. \o/</p>
 
 <p><img src="https://farm1.staticflickr.com/517/19385156095_c22e290a87.jpg" title="Awesome Mozillians in the Mounten " alt="Group Picture" /></p>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/06/15/lets-see-how-to-run-the-fantastic-spark-on-the-flame/">Taking the *Spark* Version on the FX OS Flame Device for a Test Drive</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2015-06-15T02:25:10+02:00'><span class='date'><span class='date-month'>Jun</span> <span class='date-day'>15</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>2:25 am</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Today, I enjoyed my day with this amazing version of Firefox OS Spark. First let me tell you about it - it’s a customization and features built on top of the next generation of the Firefox OS platform and is a subset of the Ignite initiative. Spark is intended to empower users to truly customize their experience, hack whatever they want to, and make their devices truly their own. For more information, I invite you to read this <a href="https://wiki.mozilla.org/Firefox_OS/Spark">link</a> .</p>
+  <entry>
+    <title type="html"><![CDATA[Taking the *Spark* Version on the FX OS Flame Device for a Test Drive]]></title>
+    <link href="http://mermi.github.io/blog/2015/06/15/lets-see-how-to-run-the-fantastic-spark-on-the-flame/"/>
+    <updated>2015-06-15T02:25:10+02:00</updated>
+    <id>http://mermi.github.io/blog/2015/06/15/lets-see-how-to-run-the-fantastic-spark-on-the-flame</id>
+    <content type="html"><![CDATA[<p>Today, I enjoyed my day with this amazing version of Firefox OS Spark. First let me tell you about it - it’s a customization and features built on top of the next generation of the Firefox OS platform and is a subset of the Ignite initiative. Spark is intended to empower users to truly customize their experience, hack whatever they want to, and make their devices truly their own. For more information, I invite you to read this <a href="https://wiki.mozilla.org/Firefox_OS/Spark">link</a> .</p>
 
 <p>Next, I will talk about my experience:</p>
 
@@ -201,35 +112,15 @@
 <p>and a Lot of other Applications like <strong>Twitter</strong>, <strong>Facebook</strong>, <strong>WhatsApp</strong>, <strong>Notes</strong>, <strong>Bugzilla Lite</strong>, <strong>Webmaker</strong>, <strong>BuddyUp</strong></p>
 
 <p>I really appreciate this version and I think it can be better and will be appreciated by all the people using Firefox OS. Happy hacking!</p>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/03/10/tutorialsqlstatementspart1/">TutorialSQLStatementsPART1</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2015-03-10T16:36:56+01:00'><span class='date'><span class='date-month'>Mar</span> <span class='date-day'>10</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>4:36 pm</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>This tutorial helps you to learn how to write Sql Statements let me start with :</p>
+  <entry>
+    <title type="html"><![CDATA[TutorialSQLStatementsPART1]]></title>
+    <link href="http://mermi.github.io/blog/2015/03/10/tutorialsqlstatementspart1/"/>
+    <updated>2015-03-10T16:36:56+01:00</updated>
+    <id>http://mermi.github.io/blog/2015/03/10/tutorialsqlstatementspart1</id>
+    <content type="html"><![CDATA[<p>This tutorial helps you to learn how to write Sql Statements let me start with :</p>
 
 <h4>How to Create your DataBase just you need to make it in one line:</h4>
 
@@ -461,35 +352,15 @@
 <p> <em>is to combine rows from two or more tables</em></p>
 
 <p><em>They are many others statements you can find them <a href="http://ss64.com/ora/">here</a></em></p>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/01/13/mozilla-work-week-in-portland/">Mozilla Work Week in Portland</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2015-01-13T13:16:46+01:00'><span class='date'><span class='date-month'>Jan</span> <span class='date-day'>13</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>1:16 pm</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>It is supposed to post my Blog post before 1 months, But when you are studying in engineering class you can&rsquo;t find free time to write.
+  <entry>
+    <title type="html"><![CDATA[Mozilla Work Week in Portland]]></title>
+    <link href="http://mermi.github.io/blog/2015/01/13/mozilla-work-week-in-portland/"/>
+    <updated>2015-01-13T13:16:46+01:00</updated>
+    <id>http://mermi.github.io/blog/2015/01/13/mozilla-work-week-in-portland</id>
+    <content type="html"><![CDATA[<p>It is supposed to post my Blog post before 1 months, But when you are studying in engineering class you can&rsquo;t find free time to write.
 In this Post I am telling you about my experience in a Mozilla Work Week:</p>
 
 <p>Me and Ahmed Nefzaoui, were invited to participate to this amazing work week, It was a huge opportunity for us to ,  At first we  were stressed  about getting our USA Visa, and then when we got it, the adventure travelling to USA and meet the most important people of Mozilla started.</p>
@@ -503,35 +374,15 @@ I was very proud and glad to finally meet the lovely french women that I knew th
 &ldquo; I&rsquo;m very glad to meet you delphine, I spent amazing moments with you in #mozlandia &rdquo;
 I had the opportunity to meet and know new Mozillians, Thanks for all the people that made my travel and this experience happen  with a lot of Fun.
 Really Thanks to Marcia, Delphine, Ioana, Ankit, Pascal, Alexandre :D I hope to meet you all very soon!!</p>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/11/14/2014-11-14-first-participation-on-mozilla-festival/">2014-11-14-first-participation-on-mozilla-festival</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2014-11-14T21:28:24+01:00'><span class='date'><span class='date-month'>Nov</span> <span class='date-day'>14</span><span class='date-suffix'>th</span>, <span class='date-year'>2014</span></span> <span class='time'>9:28 pm</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>The Mozilla Festival happened in London, It was an awesome Festival, it gathered passionate technology makers and creators eager to share their skills and many of them coming from different countries.</p>
+  <entry>
+    <title type="html"><![CDATA[2014-11-14-first-participation-on-mozilla-festival]]></title>
+    <link href="http://mermi.github.io/blog/2014/11/14/2014-11-14-first-participation-on-mozilla-festival/"/>
+    <updated>2014-11-14T21:28:24+01:00</updated>
+    <id>http://mermi.github.io/blog/2014/11/14/2014-11-14-first-participation-on-mozilla-festival</id>
+    <content type="html"><![CDATA[<p>The Mozilla Festival happened in London, It was an awesome Festival, it gathered passionate technology makers and creators eager to share their skills and many of them coming from different countries.</p>
 
 <h2>Mozilla Festival 2014</h2>
 
@@ -558,122 +409,7 @@ Really Thanks to Marcia, Delphine, Ioana, Ankit, Pascal, Alexandre :D I hope to 
 <p><img src="https://farm4.staticflickr.com/3934/15448655490_4dd029c362_h.jpg" alt="flashbooth" /></p>
 
 <p>It was a very exhausting and crazy experience for me. I really had fun, know a lot of things and discovered a lot of things. Also I have met the craziest and most beautiful people in this world :D</p>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
-</div>
-<aside class="sidebar">
-  
-    <section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/blog/2015/07/09/a-great-work-week-in-a-spectacular-setting/">A Great Work Week in a Spectacular Setting</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/06/15/lets-see-how-to-run-the-fantastic-spark-on-the-flame/">Taking the *Spark* Version on the FX OS Flame Device for a Test Drive</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/03/10/tutorialsqlstatementspart1/">TutorialSQLStatementsPART1</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/01/13/mozilla-work-week-in-portland/">Mozilla Work Week in Portland</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/11/14/2014-11-14-first-participation-on-mozilla-festival/">2014-11-14-first-participation-on-mozilla-festival</a>
-      </li>
-    
-  </ul>
-</section>
-
-<section>
-  <h1>GitHub Repos</h1>
-  <ul id="gh_repos">
-    <li class="loading">Status updating...</li>
-  </ul>
-  
-  <a href="https://github.com/mermi">@mermi</a> on GitHub
-  
-  <script type="text/javascript">
-    $(document).ready(function(){
-        if (!window.jXHR){
-            var jxhr = document.createElement('script');
-            jxhr.type = 'text/javascript';
-            jxhr.src = '/javascripts/libs/jXHR.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(jxhr, s);
-        }
-
-        github.showRepos({
-            user: 'mermi',
-            count: 0,
-            skip_forks: true,
-            target: '#gh_repos'
-        });
-    });
-  </script>
-  <script src="/javascripts/github.js" type="text/javascript"> </script>
-</section>
-
-
-
-
-
-  
-</aside>
-
-    </div>
-  </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2015 - Mermi -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
-</p>
-
-</footer>
-  
-
-
-
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) {return;}
-  js = d.createElement(s); js.id = id; js.async = true;
-  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-
-
-
-
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = '//platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-  </script>
-
-
-
-
-
-</body>
-</html>
+</feed>
