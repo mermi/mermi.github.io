@@ -4,11 +4,11 @@
   <title><![CDATA[Manel Rhaiem]]></title>
   <link href="http://mermi.github.io/atom.xml" rel="self"/>
   <link href="http://mermi.github.io/"/>
-  <updated>2015-08-23T16:44:01+02:00</updated>
+  <updated>2015-08-23T18:03:37+02:00</updated>
   <id>http://mermi.github.io/</id>
   <author>
     <name><![CDATA[Mermi]]></name>
-    
+    <email><![CDATA[manel.rhaiem92@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
@@ -47,7 +47,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Taking the *Spark* Version on the FX OS Flame Device for a Test Drive]]></title>
+    <title type="html"><![CDATA[Taking the *Spark* version on the FX OS Flame device for a test drive]]></title>
     <link href="http://mermi.github.io/blog/2015/06/15/lets-see-how-to-run-the-fantastic-spark-on-the-flame/"/>
     <updated>2015-06-15T02:25:10+02:00</updated>
     <id>http://mermi.github.io/blog/2015/06/15/lets-see-how-to-run-the-fantastic-spark-on-the-flame</id>

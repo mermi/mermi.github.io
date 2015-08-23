@@ -1,0 +1,569 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Manel Rhaiem</title>
+  <meta name="author" content="Mermi">
+
+  
+  <meta name="description" content="This tutorial helps you to learn how to write Sql Statements let me start with : How to Create your DataBase just you need to make it in one line: &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://mermi.github.io/posts/2/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Manel Rhaiem" type="application/atom+xml">
+  <!-- Facebook Open Graph
+     Facebook Debugger: https://developers.facebook.com/tools/debug -->
+
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://mermi.github.io/posts/2/" />
+<meta property="og:description" content="This tutorial helps you to learn how to write Sql Statements let me start with : How to Create your DataBase just you need to make it in one line: &hellip;" />
+
+<meta property="og:site_name" content="http://mermi.github.io" />
+<meta property="article:author" content="https://plus.google.com/114787528537231301324">
+
+
+
+<meta itemprop="description" content="This tutorial helps you to learn how to write Sql Statements let me start with : How to Create your DataBase just you need to make it in one line: &hellip;" />
+
+<!-- Combine multiple fonts into one request -->
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic|Patua+One|Yanone+Kaffeesatz" rel="stylesheet" type="text/css">
+<!-- jQuery -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+  
+
+</head>
+
+<body    class="collapse-sidebar sidebar-footer" >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Manel Rhaiem</a></h1>
+  
+    <h2>Web Developer | Enthousiaste</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="https://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:mermi.github.io" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/"><i class="icon-home"></i>Home</a></li>
+  <li><a href="/blog/archives"><i class="icon-book-alt"></i>Archives</a><span class="divider"></span></li>
+  <li><a href="/about"><i class="icon-user"></i>About</a><span class="divider"></span></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div class="blog-index">
+  
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/03/10/tutorialsqlstatementspart1/">TutorialSQLStatementsPART1</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-03-10T16:36:56+01:00" pubdate data-updated="true"></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>This tutorial helps you to learn how to write Sql Statements let me start with :</p>
+
+<h4>How to Create your DataBase just you need to make it in one line:</h4>
+
+<pre><code>CREATE DATABASE database_name
+</code></pre>
+
+<h4>Now when you need to create new Table on your Data Base you have to execute:</h4>
+
+<pre><code>CREATE TABLE table_name(
+  column_name1 data_type,
+  column_name2 data_type,
+  column_name3 data_type,
+  ...
+ )
+</code></pre>
+
+<ul>
+<li>The data type can be: Text, Byte, Integer, Double,Date,Char,Varchar(long),DateTime&hellip;..</li>
+<li>They are 5 Types of Constraint
+
+<blockquote><ul>
+<li>NOT NULL</li>
+<li>UNIQUE</li>
+<li>CHECK</li>
+<li>PRIMARY KEY</li>
+</ul>
+</blockquote>
+
+<p>  <col1> Type Data Primary Key</p></li>
+</ul>
+
+
+<blockquote><ul>
+<li>FOREIGN KEY</li>
+</ul>
+</blockquote>
+
+<pre><code>CONSTRAINT  &lt;fk table column&gt; FOREIGN KEY (col1, col2, ... coln)  REFERENCES&lt;extended table&gt; (col1, col2, ...  coln)
+</code></pre>
+
+<p>OR</p>
+
+<pre><code>&lt;col1&gt;CONSTRAINT &lt;fk table column&gt; REFERENCES &lt;extended Table&gt;(col)  
+</code></pre>
+
+<h4>To make some modification on Table exist on your Data Base</h4>
+
+<pre><code>ALTER TABLE table_name ADD column_name datatype
+</code></pre>
+
+<p>OR</p>
+
+<pre><code>ALTER TABLE table_name DROP COLUMN column_name
+</code></pre>
+
+<ul>
+<li>Add: to add a column</li>
+<li>Modify: apply some modification on column exist</li>
+<li>Drop: Drop column</li>
+<li>Add Constraint: to add a constraint to a Column</li>
+<li>Drop Constraint: to delete constraint</li>
+</ul>
+
+
+<h4>Create and Modify View: a view is a virtual table based on the result-set of an SQL statement.</h4>
+
+<pre><code>CREATE [OR REPLACE ] [FORCEjNOFORCE] VIEW &lt;nom vue&gt; [(alias [, alias], . . . )] AS SELECT [WITH CHECK OPTION    [CONSTRAINT&lt;nom contrainte&gt;]] [WITH READ ONLY [CONSTRAINT &lt;nom contrainte&gt;]] ;
+</code></pre>
+
+<h4>Create Sequence :</h4>
+
+<pre><code>CREATE SEQUENCE &lt;nom séquence&gt;
+[INCREMENT BY &lt;pas&gt;]
+[START WITH &lt;valeur&gt;]
+[MAXVALUE &lt;valeur max&gt; |NOMAXVALUEg]
+[MINVALUE &lt;valeur min&gt; | NOMINVALUEg]
+[CYCLE j NOCYCLEg]
+[CACHE &lt;cache&gt; |NOCACHE]  
+</code></pre>
+
+<blockquote><ul>
+<li>INCREMENT BY: define the step of incrementation</li>
+<li>START WITH : the first number of incrementation</li>
+<li>MAXVALUE |NOMAXVALUE : The MAX value</li>
+<li>MINVALUE || NOMINVALUE: The Min Value</li>
+<li>CYCLE | NOCYCLE</li>
+<li>CACHE | NOCACHE: values for performance</li>
+</ul>
+</blockquote>
+
+<h4>Create INDEX:  used to speed up searches/queries</h4>
+
+<pre><code>CREATE [UNIQUE] INDEX &lt;nom index&gt; ON &lt;nom table&gt;(col1, col2,...)
+</code></pre>
+
+<h4>Create and Delete Synonym:</h4>
+
+<pre><code>CREATE [OR REPLACE] [PUBLIC] SYNONYM&lt;nom synonyme&gt; FOR [schema.]&lt;nom objet&gt;
+</code></pre>
+
+<h4>Select Statement :</h4>
+
+<p><em>it is used to Select Data from data Base they different kind of Select for Example:</em></p>
+
+<pre><code>Select * From Table
+</code></pre>
+
+<ul>
+<li>With condition:</li>
+</ul>
+
+
+<blockquote><p>   Select * From Table_name Where Column like &lsquo;Ahmed&rsquo;</p></blockquote>
+
+<ul>
+<li>Sometimes we can found duplicated values in a Table so we use DISTINCT :</li>
+</ul>
+
+
+<blockquote><p>   Select DISTINCT name from EMPLOYEE</p></blockquote>
+
+<ul>
+<li>Aliases: give to a column a temporary name:</li>
+</ul>
+
+
+<blockquote><p>   SELECT column_name AS alias_name FROM table_name;</p></blockquote>
+
+<ul>
+<li>NULL values: IS NULL or IS NOT NULL</li>
+</ul>
+
+
+<blockquote><p>   SELECT LastName,FirstName,Address FROM EMPLYEE WHERE Address IS NULL</p></blockquote>
+
+<h4>Functions:</h4>
+
+<h5>Char Function</h5>
+
+<ul>
+<li><p>LOWER(String)</p>
+
+<blockquote><p>Convert upper String to lower</p></blockquote></li>
+<li><p>UPPER(String)</p>
+
+<blockquote><p>Convert lower String to upper</p></blockquote></li>
+<li><p>INITCAP(String)</p>
+
+<blockquote><p>Convert the first caracter to Upper and the other lower</p></blockquote></li>
+<li><p>CONCAT(String1,String2)</p>
+
+<blockquote><p>Concat the first string with the second string</p></blockquote></li>
+<li><p>SUBSTR(String,pos[length])</p>
+
+<blockquote><p>Extract a sub String from the String in parameter, from the position given in parameter</p></blockquote></li>
+<li><p>LPAD(String, length, char)</p>
+
+<blockquote><p>the char can be * or any other char, LPAD serve to complete the String  with the char in the left</p></blockquote></li>
+<li><p>RPAD(String, length,char)</p>
+
+<blockquote><p>the char can be * or any other char, RPAD serve to complete the String  with the char in the right</p></blockquote></li>
+<li><p>LTRIM(String,char)</p>
+
+<blockquote><p>Delete the caracteres in the left</p></blockquote></li>
+<li><p>RTRIM(String,char)</p>
+
+<blockquote><p>Delete the caracteres in the right</p></blockquote></li>
+<li><p>ASCII(String)</p>
+
+<blockquote><p>return the ASCII code of the first caracter</p></blockquote></li>
+</ul>
+
+
+<h5>Numeric function</h5>
+
+<ul>
+<li><p>ROUND(45.926,2)</p>
+
+<blockquote><p>return 45.92</p></blockquote></li>
+<li><p>FLOOR(45.926)</p>
+
+<blockquote><p>return 45</p></blockquote></li>
+<li><p>CEIL(45.926)</p>
+
+<blockquote><p>return 46</p></blockquote></li>
+<li><p>GREATEST(4,-1,7)</p>
+
+<blockquote><p>return 7</p></blockquote></li>
+</ul>
+
+
+<p>LEAST(4,-1,7)</p>
+
+<blockquote><p>return -1</p></blockquote>
+
+<h5>Date function</h5>
+
+<ul>
+<li><p>SYSDATE or CURRENT_DATE</p>
+
+<blockquote><p>return the date of your system</p></blockquote></li>
+<li><p>MONTHS_BETWEEN(d1,d2)</p>
+
+<blockquote><p>return the number of months between d1 and d2</p></blockquote></li>
+<li><p>ADD_MONTHS(d,j)</p>
+
+<blockquote><p>add j months to the date d</p></blockquote></li>
+<li><p>NEXT_DAY(d,j)</p>
+
+<blockquote><p>return the next date of the day j for example: NEXT_DAY(&lsquo;01-SEP-95&rsquo;,&lsquo;FRIDAY&rsquo;) => 08-SEP-95</p></blockquote></li>
+<li><p>ROUND(d,p)</p>
+
+<blockquote><p>ROUND(to_date(&lsquo;25-07-03&rsquo;,&lsquo;MONTH&rsquo;)) return 01-08-03</p></blockquote></li>
+<li><p>TRUNC(d,p)</p>
+
+<blockquote><p>TRUNC(to_date(&lsquo;25-07-03&rsquo;,&lsquo;MONTH&rsquo;),&lsquo;MONTH&rsquo;) return 01-07-03</p></blockquote></li>
+<li><p>EXTRACT(p FROM d)</p>
+
+<blockquote><p>EXTRACT(day from to_date(&lsquo;25-07-03&rsquo;)) return 25</p></blockquote></li>
+<li><p>TO_CHAR(date,format)</p>
+
+<blockquote><p>convert date to the format in the parameter (for more details visit this link)</p></blockquote></li>
+<li><p>TO_DATE(String,format)</p></li>
+</ul>
+
+
+<h4>Join</h4>
+
+<p> <em>is to combine rows from two or more tables</em></p>
+
+<p><em>They are many others statements you can find them <a href="http://ss64.com/ora/">here</a></em></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/01/13/mozilla-work-week-in-portland/">Mozilla Work Week in Portland</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-01-13T13:16:46+01:00" pubdate data-updated="true"></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>It is supposed to post my Blog post before 1 months, But when you are studying in engineering class you can&rsquo;t find free time to write.
+In this Post I am telling you about my experience in a Mozilla Work Week:</p>
+
+<p>Me and Ahmed Nefzaoui, were invited to participate to this amazing work week, It was a huge opportunity for us to ,  At first we  were stressed  about getting our USA Visa, and then when we got it, the adventure travelling to USA and meet the most important people of Mozilla started.</p>
+
+<p>It was from 1st December to 6th, which was gathering the different teams and people from different functional areas working for the Mozilla project, to plan for the future of Mozilla, specifically for the next year but also have a lot of FUN.
+I was invited by the CBT (Community Building Team), because of the kind of my contribution, I was also around Localization, Webmaker and Firefox OS teams, I presented in many sessions in which discussed about Mozilla Events in 2015 and about the regional community propose solutions to the current problems. Amazing experience it was.
+I&rsquo;m very proud to be there and meet all those awesome people I always knew through IRC, Twitter and Facebook. I had a chance to meet Pascal Chevrel  and talked  with him about Arabic Localization and I had the chance to get guidance from him on how to work on the l10n of mozilla.org.</p>
+
+<p>I met also the Firefox OS UX Team led by Stephany Wilkes to discuss Design Patterns in Firefox OS Right-To-Left (RTL) User interface I was very happy to meet them and I spoke spontaneously to them, just because I felt like with my family.
+I was very proud and glad to finally meet the lovely french women that I knew through IRC and Twitter and the first person to guide me in Womoz &ldquo;Dephine&rdquo;.
+&ldquo; I&rsquo;m very glad to meet you delphine, I spent amazing moments with you in #mozlandia &rdquo;
+I had the opportunity to meet and know new Mozillians, Thanks for all the people that made my travel and this experience happen  with a lot of Fun.
+Really Thanks to Marcia, Delphine, Ioana, Ankit, Pascal, Alexandre :D I hope to meet you all very soon!!</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  <div class="pagination">
+    
+      <a class="prev" href="3">&larr; Older</a>
+    
+    <a href="/blog/archives">Blog Archives</a>
+    
+    <a class="next" href="1">Newer &rarr;</a>
+    
+  </div>
+</div>
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/07/09/a-great-work-week-in-a-spectacular-setting/">A Great Work Week in a Spectacular Setting</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/06/15/lets-see-how-to-run-the-fantastic-spark-on-the-flame/">Taking the *Spark* version on the FX OS Flame device for a test drive</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/03/10/tutorialsqlstatementspart1/">TutorialSQLStatementsPART1</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/01/13/mozilla-work-week-in-portland/">Mozilla Work Week in Portland</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/11/14/2014-11-14-first-participation-on-mozilla-festival/">2014-11-14-first-participation-on-mozilla-festival</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/mermi">@mermi</a> on GitHub
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'mermi',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+  
+</aside>
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2015 - Mermi<span class="theme-version">Dropbot 0.8</span>
+  <section class="contruction-wrap">
+    <div class="contruction"></div>
+  </section>
+</p>
+
+</footer>
+  
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+<!--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                            IIIIIIIIII       I
+                  II                     IIIIIIIIIIIIIIIIIIII
+                  IIII                  IIIIIIIIIIIIIIIIIIII
+                  IIIIII                IIIIIIIIIIIIIIIIII III
+                  IIIIIIII             IIIIIIIIIIIIIIIIIIIIII
+                  IIIIIIIIIII          IIIIIIIIIIIIIIIIIIIII
+                  IIIIIIIIIIIIII       IIIIIIIIIIIIIIIIIII
+                   IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+                  I  IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+                  IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+                  IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+                   IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+                    IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+                     IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+                         IIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+                     IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+                      IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+                        IIIIIIIIIIIIIIIIIIIIIIIIIIIII
+                           IIIIIIIIIIIIIIIIIIIIIIIII
+                             IIIIIIIIIIIIIIIIIIIII
+                          IIIIIIIIIIIIIIIIIIIIIII
+                I   IIIIIIIIIIIIIIIIIIIIIIIIII
+                  IIIIIIIIIIIIIIIIIIIIIIIIII
+                      IIIIIIIIIIIIIIIIII
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ -->
+
+
+</body>
+</html>
