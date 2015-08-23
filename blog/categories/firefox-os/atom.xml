@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Firefox Os | Manel Rhaiem]]></title>
-  <link href="mermi.me/blog/categories/firefox-os/atom.xml" rel="self"/>
-  <link href="mermi.me/"/>
-  <updated>2015-08-23T15:47:26+02:00</updated>
-  <id>mermi.me/</id>
+  <link href="http://mermi.github.io/blog/categories/firefox-os/atom.xml" rel="self"/>
+  <link href="http://mermi.github.io/"/>
+  <updated>2015-08-23T15:56:10+02:00</updated>
+  <id>http://mermi.github.io/</id>
   <author>
     <name><![CDATA[Mermi]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Taking the *Spark* Version on the FX OS Flame Device for a Test Drive]]></title>
-    <link href="mermi.me/blog/2015/06/15/lets-see-how-to-run-the-fantastic-spark-on-the-flame/"/>
+    <link href="http://mermi.github.io/blog/2015/06/15/lets-see-how-to-run-the-fantastic-spark-on-the-flame/"/>
     <updated>2015-06-15T02:25:10+02:00</updated>
-    <id>mermi.me/blog/2015/06/15/lets-see-how-to-run-the-fantastic-spark-on-the-flame</id>
+    <id>http://mermi.github.io/blog/2015/06/15/lets-see-how-to-run-the-fantastic-spark-on-the-flame</id>
     <content type="html"><![CDATA[<p>Today, I enjoyed my day with this amazing version of Firefox OS Spark. First let me tell you about it - it’s a customization and features built on top of the next generation of the Firefox OS platform and is a subset of the Ignite initiative. Spark is intended to empower users to truly customize their experience, hack whatever they want to, and make their devices truly their own. For more information, I invite you to read this <a href="https://wiki.mozilla.org/Firefox_OS/Spark">link</a> .</p>
 
 <p>Next, I will talk about my experience:</p>

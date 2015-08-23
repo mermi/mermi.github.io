@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: mermi.me/sitemap.xml 
+Sitemap: http://mermi.github.io/sitemap.xml 

@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>mermi.me/blog/2015/07/09/a-great-work-week-in-a-spectacular-setting/</loc>
+    <loc>http://mermi.github.io/blog/2015/07/09/a-great-work-week-in-a-spectacular-setting/</loc>
     <lastmod>2015-07-09T03:27:51+02:00</lastmod>
   </url>
   <url>
-    <loc>mermi.me/blog/2015/06/15/lets-see-how-to-run-the-fantastic-spark-on-the-flame/</loc>
+    <loc>http://mermi.github.io/blog/2015/06/15/lets-see-how-to-run-the-fantastic-spark-on-the-flame/</loc>
     <lastmod>2015-06-15T02:25:10+02:00</lastmod>
   </url>
   <url>
-    <loc>mermi.me/blog/2015/03/10/tutorialsqlstatementspart1/</loc>
+    <loc>http://mermi.github.io/blog/2015/03/10/tutorialsqlstatementspart1/</loc>
     <lastmod>2015-03-10T16:36:56+01:00</lastmod>
   </url>
   <url>
-    <loc>mermi.me/blog/2015/01/13/mozilla-work-week-in-portland/</loc>
+    <loc>http://mermi.github.io/blog/2015/01/13/mozilla-work-week-in-portland/</loc>
     <lastmod>2015-01-13T13:16:46+01:00</lastmod>
   </url>
   <url>
-    <loc>mermi.me/blog/2014/11/14/2014-11-14-first-participation-on-mozilla-festival/</loc>
+    <loc>http://mermi.github.io/blog/2014/11/14/2014-11-14-first-participation-on-mozilla-festival/</loc>
     <lastmod>2014-11-14T21:28:24+01:00</lastmod>
   </url>
   <url>
-    <loc>mermi.me/</loc>
+    <loc>http://mermi.github.io/</loc>
   </url>
   <url>
-    <loc>mermi.me/blog/archives/</loc>
+    <loc>http://mermi.github.io/blog/archives/</loc>
   </url>
   <url>
-    <loc>mermi.me/about/</loc>
+    <loc>http://mermi.github.io/about/</loc>
   </url>
   <url>
-    <loc>mermi.me/blog/categories/firefox-os/</loc>
+    <loc>http://mermi.github.io/blog/categories/firefox-os/</loc>
   </url>
   <url>
-    <loc>mermi.me/blog/categories/mozilla/</loc>
+    <loc>http://mermi.github.io/blog/categories/mozilla/</loc>
   </url>
 </urlset>

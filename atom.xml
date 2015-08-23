@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Manel Rhaiem]]></title>
-  <link href="mermi.me/atom.xml" rel="self"/>
-  <link href="mermi.me/"/>
-  <updated>2015-08-23T15:47:26+02:00</updated>
-  <id>mermi.me/</id>
+  <link href="http://mermi.github.io/atom.xml" rel="self"/>
+  <link href="http://mermi.github.io/"/>
+  <updated>2015-08-23T15:56:10+02:00</updated>
+  <id>http://mermi.github.io/</id>
   <author>
     <name><![CDATA[Mermi]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[A Great Work Week in a Spectacular Setting]]></title>
-    <link href="mermi.me/blog/2015/07/09/a-great-work-week-in-a-spectacular-setting/"/>
+    <link href="http://mermi.github.io/blog/2015/07/09/a-great-work-week-in-a-spectacular-setting/"/>
     <updated>2015-07-09T03:27:51+02:00</updated>
-    <id>mermi.me/blog/2015/07/09/a-great-work-week-in-a-spectacular-setting</id>
+    <id>http://mermi.github.io/blog/2015/07/09/a-great-work-week-in-a-spectacular-setting</id>
     <content type="html"><![CDATA[<p>I was so happy to attend this Work Week, first because I was invited by the QA Team and I was so excited to meet them in person and learn more from them during the course of the Work Week.</p>
 
 <p>The work week started on 22th June evening until the evening of the 27th. It was a <em>busy</em> week, and during the course of the week I met a lot of nice people and discovered a lot of things about other projects in Mozilla. I also had some time to discover the charming Village where the event was held.</p>
@@ -48,9 +48,9 @@
   
   <entry>
     <title type="html"><![CDATA[Taking the *Spark* Version on the FX OS Flame Device for a Test Drive]]></title>
-    <link href="mermi.me/blog/2015/06/15/lets-see-how-to-run-the-fantastic-spark-on-the-flame/"/>
+    <link href="http://mermi.github.io/blog/2015/06/15/lets-see-how-to-run-the-fantastic-spark-on-the-flame/"/>
     <updated>2015-06-15T02:25:10+02:00</updated>
-    <id>mermi.me/blog/2015/06/15/lets-see-how-to-run-the-fantastic-spark-on-the-flame</id>
+    <id>http://mermi.github.io/blog/2015/06/15/lets-see-how-to-run-the-fantastic-spark-on-the-flame</id>
     <content type="html"><![CDATA[<p>Today, I enjoyed my day with this amazing version of Firefox OS Spark. First let me tell you about it - it’s a customization and features built on top of the next generation of the Firefox OS platform and is a subset of the Ignite initiative. Spark is intended to empower users to truly customize their experience, hack whatever they want to, and make their devices truly their own. For more information, I invite you to read this <a href="https://wiki.mozilla.org/Firefox_OS/Spark">link</a> .</p>
 
 <p>Next, I will talk about my experience:</p>
@@ -117,9 +117,9 @@
   
   <entry>
     <title type="html"><![CDATA[TutorialSQLStatementsPART1]]></title>
-    <link href="mermi.me/blog/2015/03/10/tutorialsqlstatementspart1/"/>
+    <link href="http://mermi.github.io/blog/2015/03/10/tutorialsqlstatementspart1/"/>
     <updated>2015-03-10T16:36:56+01:00</updated>
-    <id>mermi.me/blog/2015/03/10/tutorialsqlstatementspart1</id>
+    <id>http://mermi.github.io/blog/2015/03/10/tutorialsqlstatementspart1</id>
     <content type="html"><![CDATA[<p>This tutorial helps you to learn how to write Sql Statements let me start with :</p>
 
 <h4>How to Create your DataBase just you need to make it in one line:</h4>
@@ -357,9 +357,9 @@
   
   <entry>
     <title type="html"><![CDATA[Mozilla Work Week in Portland]]></title>
-    <link href="mermi.me/blog/2015/01/13/mozilla-work-week-in-portland/"/>
+    <link href="http://mermi.github.io/blog/2015/01/13/mozilla-work-week-in-portland/"/>
     <updated>2015-01-13T13:16:46+01:00</updated>
-    <id>mermi.me/blog/2015/01/13/mozilla-work-week-in-portland</id>
+    <id>http://mermi.github.io/blog/2015/01/13/mozilla-work-week-in-portland</id>
     <content type="html"><![CDATA[<p>It is supposed to post my Blog post before 1 months, But when you are studying in engineering class you can&rsquo;t find free time to write.
 In this Post I am telling you about my experience in a Mozilla Work Week:</p>
 
@@ -379,9 +379,9 @@ Really Thanks to Marcia, Delphine, Ioana, Ankit, Pascal, Alexandre :D I hope to 
   
   <entry>
     <title type="html"><![CDATA[2014-11-14-first-participation-on-mozilla-festival]]></title>
-    <link href="mermi.me/blog/2014/11/14/2014-11-14-first-participation-on-mozilla-festival/"/>
+    <link href="http://mermi.github.io/blog/2014/11/14/2014-11-14-first-participation-on-mozilla-festival/"/>
     <updated>2014-11-14T21:28:24+01:00</updated>
-    <id>mermi.me/blog/2014/11/14/2014-11-14-first-participation-on-mozilla-festival</id>
+    <id>http://mermi.github.io/blog/2014/11/14/2014-11-14-first-participation-on-mozilla-festival</id>
     <content type="html"><![CDATA[<p>The Mozilla Festival happened in London, It was an awesome Festival, it gathered passionate technology makers and creators eager to share their skills and many of them coming from different countries.</p>
 
 <h2>Mozilla Festival 2014</h2>
